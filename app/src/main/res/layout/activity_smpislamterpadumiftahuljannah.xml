@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/smpislamterpadumiftahul"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/sunonthehorizon" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="380dp"
+                    android:paddingLeft="15dp"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="20dp"
+                    android:text="SMP ISLAM TERPADU MIFTAHUL JANNAH"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="bold"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <ImageView
+                    android:id="@+id/imagesch"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="266dp"
+                    android:layout_height="190dp"
+                    android:src="@drawable/smp_islam_terpadu_mifathul_jannah"
+                    android:layout_below="@+id/textView2"
+                    android:layout_centerHorizontal="true"/>
+
+                <Button
+                    android:id="@+id/btnmap"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/circle"
+                    android:drawableTop="@android:drawable/ic_dialog_map"
+                    android:paddingTop="20dp"
+                    android:text="Map"
+                    android:textColor="#fff"
+                    android:layout_below="@+id/imagesch"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <TextView
+                    android:id="@+id/textsmp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="380dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/btnmap"
+                    android:textColor="#000000"
+                    android:background="#ccc"
+                    android:text=
+                        "Akreditasi 	 : - \n
+No.Telepon	 : 021- 8497345 \n
+Alamat		 : Jl. Sosial Rt.002 Rw.016 No.20, JATIWARINGIN, Kec. Pondokgede, Kota Bekasi Prop. Jawa Barat
+E-Mail		 : azzanure@yahoo.co.id \n
+\n\n
+
+Kurikulum : KTSP  \n
+Waktu Penyelenggaraan : Pagi  \n
+Daya Listrik : 1,300  \n
+Luas Tanah : 1,000 M² \n
+Ruang Kelas :  3 * \n
+Laboratorium : 1 *  \n
+Perpustakaan : 0 * \n
+Sanitasi Siswa :  1 * \n\n " />
+
+                <TextView
+                    android:id="@+id/keterangan"
+                    android:layout_below="@+id/textsmp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:text="(*) Penghitungan hanya untuk kondisi Baik, Rusak Ringan dan Rusak Sedang"
+                    android:textColor="#e60f0f"/>
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>
+
+

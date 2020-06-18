@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.pws.schools">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true">
+
+        <!-- Splash screen -->
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Main activity -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".SekolahActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".AboutActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".SD.SDActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".SMP.SMPActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".SMA.SMAActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".SMA.SMAN21">
+        </activity>
+        <activity android:name=".SMA.SMAN5">
+        </activity>
+        <activity android:name=".SMA.SMASULTHON">
+        </activity>
+        <activity android:name=".SMA.SMASYADIKA4">
+        </activity>
+        <activity android:name=".SMA.SMASYATAMA">
+        </activity>
+        <activity android:name=".SD.SDMARTHA">
+        </activity>
+        <activity android:name=".SD.SDIQRO">
+        </activity>
+        <activity android:name=".SD.SDALAZHARSYIFABUDIJATIBENING">
+        </activity>
+        <activity android:name=".SD.SDASSHODRIYAH">
+        </activity>
+        <activity android:name=".SD.SDASSYAFIIYAH">
+        </activity>
+        <activity android:name=".SD.SDALBARKAH">
+        </activity>
+        <activity android:name=".SD.SDPELITAALAM">
+        </activity>
+        <activity android:name=".SD.SDITBINAINSANMULIA">
+        </activity>
+        <activity android:name=".SD.SDISLAMKASIHSAYANGIBU">
+        </activity>
+        <activity android:name=".SD.SDROUDHOTUL">
+        </activity>
+        <activity android:name=".SD.SDMIFTAHULJANNAH">
+        </activity>
+        <activity android:name=".SD.SDSYAFIULIKHWAN">
+        </activity>
+        <activity android:name=".SD.SDALAMAL">
+        </activity>
+        <activity android:name=".SD.SDARMINA">
+        </activity>
+        <activity android:name=".SD.SDANNUR">
+        </activity>
+        <activity android:name=".SD.SDSANTOBELLARMINUS">
+        </activity>
+        <activity android:name=".SD.SDEDELWEISS">
+        </activity>
+        <activity android:name=".SD.SDBANIYATULKHOLIDIYAH">
+        </activity>
+        <activity android:name=".SD.SDITGEMBIRA">
+        </activity>
+        <activity android:name=".SD.SDTUNASCEMERLANG">
+        </activity>
+        <activity android:name=".SD.SDISLAMASSYAFFIYAH">
+        </activity>
+        <activity android:name=".SD.SDPAMARDIYUMANABHAKTI">
+        </activity>
+        <activity android:name=".SMP.SMPPELITAALAM">
+        </activity>
+        <activity android:name=".SMP.SMPPGRI">
+        </activity>
+        <activity android:name=".SMA.SMAASSYAFIIYAH">
+        </activity>
+        <activity android:name=".SMA.mapsmaassyafiiyah">
+        </activity>
+        <activity android:name=".SMA.mapsman21">
+        </activity>
+        <activity android:name=".SMA.mapsman5">
+        </activity>
+        <activity android:name=".SMA.mapsmasulthon">
+        </activity>
+        <activity android:name=".SMA.mapsmayadika4">
+        </activity>
+        <activity android:name=".SMA.mapsmayatama">
+        </activity>
+        <activity android:name=".SMP.SMPASSYAFIIYAH06">
+        </activity>
+        <activity android:name=".SMP.SMPN17">
+        </activity>
+        <activity android:name=".SMP.SMPMIFTAHUL">
+        </activity>
+        <activity android:name=".SMP.SMPSANTOBELLARMINUS">
+        </activity>
+        <activity android:name=".SMP.SMPTUNASCEMERLANG">
+        </activity>
+        <activity android:name=".SMP.SMPSMITRANUSANTARA">
+        </activity>
+        <activity android:name=".SMP.SMPISLAMASSYAFIIYAH04">
+        </activity>
+        <activity android:name=".SMP.SMPISLAMAYMAN">
+        </activity>
+        <activity android:name=".SMP.SMPISLAMTERPADUMIFTAHULJANNAH">
+        </activity>
+        <activity android:name=".SMP.SMPITALHASSAN">
+        </activity>
+        <activity android:name=".SMP.mapsmpassyafiiyah04">
+        </activity>
+        <activity android:name=".SMP.mapsmpassyafiiyah06">
+        </activity>
+        <activity android:name=".SMP.mapsmpayman">
+        </activity>
+        <activity android:name=".SMP.mapsmphassan">
+        </activity>
+        <activity android:name=".SMP.mapsmpmiftahul">
+        </activity>
+        <activity android:name=".SMP.mapsmpmiftahuljannah">
+        </activity>
+        <activity android:name=".SMP.mapsmpmitranusantara">
+        </activity>
+        <activity android:name=".SMP.mapsmpn17">
+        </activity>
+        <activity android:name=".SMP.mapsmppelitaalam">
+        </activity>
+        <activity android:name=".SMP.mapsmppgri">
+        </activity>
+        <activity android:name=".SMP.mapsmpsanto">
+        </activity>
+        <activity android:name=".SMP.mapsmptunascemerlang">
+        </activity>
+        <activity android:name=".SD.mapsdalamal">
+        </activity>
+        <activity android:name=".SD.mapsdalazharsyifabudijatibening">
+        </activity>
+        <activity android:name=".SD.mapsdalbarkah">
+        </activity>
+        <activity android:name=".SD.mapsdannur">
+        </activity>
+        <activity android:name=".SD.mapsdarmina">
+        </activity>
+        <activity android:name=".SD.mapsdasshodriyah">
+        </activity>
+        <activity android:name=".SD.mapsdassyafiiyah">
+        </activity>
+        <activity android:name=".SD.mapsdbaniyatulkholidiyah">
+        </activity>
+        <activity android:name=".SD.mapsdbinainsanmulia">
+        </activity>
+        <activity android:name=".SD.mapsdedelweiss">
+        </activity>
+        <activity android:name=".SD.mapsdiqro">
+        </activity>
+        <activity android:name=".SD.mapsdislamassyaffiyah">
+        </activity>
+        <activity android:name=".SD.mapsdislamkasihsayangibu">
+        </activity>
+        <activity android:name=".SD.mapsditgembira">
+        </activity>
+        <activity android:name=".SD.mapsdmartha">
+        </activity>
+        <activity android:name=".SD.mapsdmiftahuljannah">
+        </activity>
+        <activity android:name=".SD.mapsdpamardiyumanabhakti">
+        </activity>
+        <activity android:name=".SD.mapsdpelitaalam">
+        </activity>
+        <activity android:name=".SD.mapsdroudhotul">
+        </activity>
+        <activity android:name=".SD.mapsdsantobellarminus">
+        </activity>
+        <activity android:name=".SD.mapsdsyafiulikhwan">
+        </activity>
+        <activity android:name=".SD.mapsdtunascemerlang">
+        </activity>
+        <activity android:name=".BantuanActivity"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>
