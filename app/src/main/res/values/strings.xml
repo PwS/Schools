@@ -9,4 +9,8 @@
     <string name="button_tentang">Button Tentang</string>
     <string name="description_button_tentang">Button "Tentang" yaitu berisi tentang data diri developer</string>
     <string name="application_developer">Application Developer</string>
+    <string name="sekolah">Sekolah</string>
+    <string name="bantuan">Bantuan</string>
+    <string name="tentang">Tentang</string>
+    <string name="exit">Exit</string>
 </resources>

@@ -15,7 +15,7 @@
 
     <Button
         android:id="@+id/btnsekolah"
-        android:text="Sekolah"
+        android:text="@string/sekolah"
         android:textAllCaps="false"
         android:textSize="25sp"
         android:textColor="#000000"
@@ -27,19 +27,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/btnbantuan"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="20dp"/>
 
     <Button
         android:id="@+id/btnbantuan"
-        android:text="Bantuan"
+        android:text="@string/bantuan"
         android:textAllCaps="false"
         android:textSize="25sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/btnabout"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:background="@drawable/buttonshape"
         android:textColor="#000000"
@@ -51,7 +49,7 @@
 
     <Button
         android:id="@+id/btnabout"
-        android:text="Tentang"
+        android:text="@string/tentang"
         android:textAllCaps="false"
         android:textSize="25sp"
         android:layout_width="match_parent"
@@ -63,19 +61,18 @@
         android:shadowRadius="5"
         android:background="@drawable/buttonshape"
         android:layout_above="@+id/btnexit"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="25dp"/>
 
     <Button
         android:id="@+id/btnexit"
-        android:text="Exit"
+        android:text="@string/exit"
         android:textColor="#000000"
         style="@style/btnStyleBlue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentStart="false"
         android:layout_marginBottom="10dp" />
 
