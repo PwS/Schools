@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Schools</string>
-    <string name="title_activity_smaassyafiiyah">SMAASSYAFIIYAH</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="description_tentang_aplikasi">Aplikasi ini dibuat untuk mengetahui sekolah yang berada diwilayah Pondok Gede berbasis Android.</string>
+    <string name="description_tentang_aplikasi2">Fitur-fitur yang di sajikan dalam aplikasi ini antara lain Macam-macam sekolah yang berada di Pondok Gede, Informasi masing-masing sekolah beserta peta lokasi, Bantuan, Dan tentang developer</string>
+    <string name="panduan_aplikasi">Panduan Aplikasi</string>
+    <string name="button_sekolah">Button Sekolah</string>
+    <string name="description_button_sekolah">Ketika user mengklik Button Sekolah maka akan muncul ImageButton(Logo/Gambar) yang me-representasikan setiap tingkatan sekolah(SD,SMP,SMA). Didalam masih-masih logo sekolah tersebut terdapat list sekolah yang bersangkutan yang ada di Pondok Gede.</string>
+    <string name="button_tentang">Button Tentang</string>
+    <string name="description_button_tentang">Button "Tentang" yaitu berisi tentang data diri developer</string>
+    <string name="application_developer">Application Developer</string>
 </resources>
