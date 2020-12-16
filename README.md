@@ -15,18 +15,18 @@ http://sekolah.data.kemdikbud.go.id/
 - [✓] Display Data School (SD,SMP,SMA) in ListView
 - [✓] Details page for each Schools that will contains
 ```bash
-		[✚] Map
-		[✚] Akreditas
-		[✚] No Telepon
-		[✚] Alamat
-		[✚] E-Mail
-		[✚] Kurikulum
-		[✚] Daya Listrik
-		[✚] Luas Tanah
-    		[✚] Ruang Kelas
-		[✚] Laboratorium
-		[✚] Perpustakaan
-    		[✚] Sanitasi Siswa
+	[✚] Map
+	[✚] Akreditas
+	[✚] No Telepon
+	[✚] Alamat
+	[✚] E-Mail
+	[✚] Kurikulum
+	[✚] Daya Listrik
+	[✚] Luas Tanah
+    	[✚] Ruang Kelas
+	[✚] Laboratorium
+	[✚] Perpustakaan
+    	[✚] Sanitasi Siswa
 ```
 - [✓] Location Direct into Google Maps
 
