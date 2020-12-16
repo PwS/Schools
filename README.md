@@ -23,10 +23,10 @@ http://sekolah.data.kemdikbud.go.id/
 		[✚] Kurikulum
 		[✚] Daya Listrik
 		[✚] Luas Tanah
-    [✚] Ruang Kelas
+    		[✚] Ruang Kelas
 		[✚] Laboratorium
 		[✚] Perpustakaan
-    [✚] Sanitasi Siswa
+    		[✚] Sanitasi Siswa
 ```
 - [✓] Location Direct into Google Maps
 
